@@ -45,7 +45,7 @@ const ToDo = () => {
   }, [todoList]);
 
   return (
-    <div className="bg-white place-self-center w-[412px] max-w-md flex flex-col p-9 min-h-[550px] rounded-xl"
+    <div className="bg-white place-self-center w-[412px] max-w-md flex flex-col p-4 md:p-9 min-h-[550px] rounded-xl"
 >
       {/* title */}
 
