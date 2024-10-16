@@ -49,9 +49,9 @@ const ToDo = () => {
 >
       {/* title */}
 
-      <div className="flex items-center mt-7 gap-2">
-        <img className="w-8" src={todo_icon} alt="" />
-        <h1 className="text-3xl font-semibold">To-Do List</h1>
+      <div className="flex items-center mt-7 gap-2 ">
+        <img className="w-8 flex items-center" src={todo_icon} alt="" />
+        <h1 className="text-3xl flex items-center font-semibold">To-Do List</h1>
       </div>
 
       {/* ---------  Input Box ---------- */}
